@@ -1,7 +1,7 @@
 import React,{ useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
-// import {BsFillPersonLinesFill} from "react-icons/bs"
+import {BsFillPersonLinesFill} from "react-icons/bs"
 import { Link } from "react-scroll"
 import Mf from "../Assets/mf.png"
 
@@ -97,11 +97,11 @@ const Navbar = () => {
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                    <a href="/https://flowcv.com/resume/k9ned9tk7e" className='flex justify-between items-center w-full text-gray-300'>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
-                </li> */}
+                </li>
             </ul>
         </div>
 
