@@ -2,10 +2,20 @@ import ecomdash from "../Assets/projectImages/ecomdash.png"
 import flipkart from "../Assets/projectImages/flipkart.png"
 import spotify from "../Assets/projectImages/spotify.png"
 import quiz from "../Assets/projectImages/quiz.png"
+import promptly from "../Assests/projectImages/promptly.png"
 
 export const projects = [
     {
         id: 1,
+        name: "Promptly",
+        subtitle: "Grammarly, but for AI prompt",
+        responsive: "Y",
+        image: promptly,
+        github: "https://github.com/Fawwaz-GitHub/promptly",
+        host: "https://promptly-web-ecru.vercel.app/",
+    },
+    {
+        id: 2,
         name: "Dashboard Application",
         subtitle: "API May Take Few Minutes To Load",
         responsive: "Y",
@@ -14,7 +24,7 @@ export const projects = [
         host: "https://ecomdash.onrender.com/",
     },
     {
-        id: 2,
+        id: 3,
         name: "Flipkart Clone",
         subtitle: "API May Take Few Minutes To Load",
         responsive: "Y",
@@ -23,7 +33,7 @@ export const projects = [
         host: "https://flippedcart.onrender.com/",
     },
     {
-        id: 3,
+        id: 4,
         name: "Spotify Clone",
         subtitle: "Spotify Subscription Needed To Play",
         responsive: "N",
@@ -32,7 +42,7 @@ export const projects = [
         host: "https://cloned-spotify.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         name: "Football Quiz",
         subtitle: "Answer The Questions Within Time",
         responsive: "Y",
