@@ -2,7 +2,7 @@ import ecomdash from "../Assets/projectImages/ecomdash.png"
 import flipkart from "../Assets/projectImages/flipkart.png"
 import spotify from "../Assets/projectImages/spotify.png"
 import quiz from "../Assets/projectImages/quiz.png"
-import promptly from "../Assests/projectImages/promptly.png"
+import promptly from "../Assets/projectImages/promptly.png"
 
 export const projects = [
     {
